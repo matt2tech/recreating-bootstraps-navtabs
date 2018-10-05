@@ -1,0 +1,15 @@
+.nav-link .active {
+    border-color: lightgrey lightgrey white
+}
+
+.nav-tabs {
+    border-bottom: 1px solid lightgrey
+}
+
+.tab-content > .active {
+    display: block !important;
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
