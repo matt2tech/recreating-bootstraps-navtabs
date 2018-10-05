@@ -1,5 +1,15 @@
-.nav-link .active {
-    border-color: lightgrey lightgrey white
+.nav-link {
+    border: 1px solid transparent;
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+    border-top-left-radius: 3px;
+    border-top-right-radius:3px;
+}
+
+.nav-tabs > .active {
+    color: black;
+    border-color: lightgray;
+    border-bottom-color: white;
+    text-decoration: none
 }
 
 .nav-tabs {
