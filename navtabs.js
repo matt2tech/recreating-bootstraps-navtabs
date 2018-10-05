@@ -3,8 +3,10 @@ function myFunction() {
         var tab = document.querySelectorAll('.tab-pane');
         nav.forEach(function(x) {
             x.addEventListener('click', function() {
-                x.classList.toggle('show')
-                x.classList.toggle('active'
+                for (var i = 0; i < nav.length; i++) {
+                   nav[i].classList.remove('active') 
+                }
+                x.classList.toggle('active');
             })
         })
     }
